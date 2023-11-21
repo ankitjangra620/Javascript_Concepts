@@ -5,6 +5,7 @@ import './App.css';
 const showVariables = require("./JS_FUNDAMENTALS/varaibles")
 const typeConversion = require("./JS_FUNDAMENTALS/typeConversion")
 const comparision = require('./JS_FUNDAMENTALS/comparision');
+const polyfills = require('./JS_FUNDAMENTALS/polyfills');
 
 function App() {
   
@@ -16,7 +17,10 @@ function App() {
     // typeConversion();
 
     // to illustrate the comparision in Js
-    comparision();
+    // comparision();
+
+    // To illustrate the concept of Polyfills in javascript.
+    polyfills();
   }
 
   useEffect(()=>{

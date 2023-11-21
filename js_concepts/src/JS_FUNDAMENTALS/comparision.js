@@ -1,5 +1,7 @@
 function comparision(){
 
+    const value = 12;
+
     console.log("Undefined comparision with 0 -> ", undefined == 0, undefined === 0, undefined > 0, undefined >=0, undefined<0);
 
     console.log("Null comparision with 0 -> ", null == 0, null ===0 , null > 0, null >= 0, null <0);

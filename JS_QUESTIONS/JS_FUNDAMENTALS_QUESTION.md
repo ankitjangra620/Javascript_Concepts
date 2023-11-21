@@ -23,5 +23,12 @@ Q14: Comparision of null and undefined with 0 using the comparision operators?
 <!-- Functions in JS -->
 Q15: What is functional programing in javascript? and what is the difference between local variable and gobal variable?
 Q16: What is the difference between ?? and || operator?
-
-
+Q17: What is the difference between Function declaration and Function Expressions.
+<!-- JS Debugging and Code Quality -->
+Q18: What is the difference between a Breakpoint and a conditional breakpoint?
+Q19: What is mocha and chai framework and why is they used for?
+Q20: What is transpiler and why they are used in JS. What are Babel and webpack?. What is their difference?
+<!-- Polyfills in Javascript -->
+Q21: What are polyfills and write a polyfill for map, some function?
+Q22: Write polyfills for call, apply and bind method in javascript?
+Q23: What is the difference between call, apply and the bind method?
