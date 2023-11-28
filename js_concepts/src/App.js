@@ -6,6 +6,9 @@ const showVariables = require("./JS_FUNDAMENTALS/varaibles")
 const typeConversion = require("./JS_FUNDAMENTALS/typeConversion")
 const comparision = require('./JS_FUNDAMENTALS/comparision');
 const polyfills = require('./JS_FUNDAMENTALS/polyfills');
+const objects = require('./JS_FUNDAMENTALS/objects')
+const iterables = require('./JS_FUNDAMENTALS/iterables')
+const jsonFunction = require('./JS_FUNDAMENTALS/jsonFunctions')
 
 function App() {
   
@@ -20,7 +23,16 @@ function App() {
     // comparision();
 
     // To illustrate the concept of Polyfills in javascript.
-    polyfills();
+    // polyfills();
+
+    // To illustrate the concepts of objects;
+    // objects();
+    
+    // To illustrate the concepts of iterables.
+    // iterables();
+
+    // To illustrate the concepts of JSON functions;
+    jsonFunction();
   }
 
   useEffect(()=>{
