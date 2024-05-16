@@ -51,7 +51,7 @@ function jsonFunction(){
 
     // JSON.parse function
 
-    console.log("ANS VLAUE 4 => ", JSON.parse(name, function(key, value){
+    console.log("ANS VLAUE 4 => ", JSON.parse(ans3, function(key, value){
         return value;
     }))
 
@@ -60,7 +60,34 @@ function jsonFunction(){
     // -------------------------------------------------------------------------------------//
     // -------------------------------------------------------------------------------------//
 
+    // THe advanced function concepts?
+    function sayHi (a, b, ...arr){
+        alert("Hello Mr");
+        sayHi.counter++;
+    }
 
+    console.log("ANS VALUE5 => ", sayHi.name);
+
+    console.log("ANS VALUE6 =>", sayHi.length);
+    sayHi.counter = 0;
+    sayHi();
+    console.log("ANS VALUE7", sayHi.counter)
+
+    // Set Time out and set Interval functions demonstration.
+    setTimeout((a)=>{
+        alert(`Hello Mr ${a}`);
+    }, 1000, "Ankit")
+    
+
+    setTimeout((a)=>{
+        alert(`Hello Mr ${a}`);
+    }, 1000, "Jangra")
+
+
+    setInterval((a)=>{
+        // alert(`Hello Mr ${a}`);
+    }, 3000, "Jangra")
+    
 
 }
 

@@ -1,3 +1,6 @@
+JS_INTERVIEW_PREP -> Javascript.info
+JS_OUTPUT and Logic Questions -> Javascript.info
+
 <!-- Tasks that i have studied. -->
 
 Q1: What can JS do and what it cannot do?
@@ -67,3 +70,33 @@ Q55: What is new Date and what is known as timestamp?  Explain about Date.parse 
 Q56: When will the JSON.stringifyb function will fail?
 Q57: What is the exact syntax of JSON.stringify  -> JSON.stringiyf(value,function(key, value){}, space);
 Q58: What is a toJSON method and why it is used? 
+
+<!-- Variable Scopes and Closures -->
+Q59: What is Lexical Enviroment in JS? What is Lexical Enviroument object? What is the difference between the inner and outer lexical enviroument?
+Q60: What is the difference between function declarations and function expression?
+Q61: What is closure in JS and what is its importance?
+Q62: What is the difference between let and var?
+Q63: What is the output of these statements ->
+ function sayHi() {
+  phrase = "Hello"; // (*)
+
+  if (false) {
+    var phrase;
+  }
+
+  alert(phrase);
+}
+sayHi();
+
+Q64: What is hoisting and how hoisting works for the let, var and const?
+<!-- In JS Functions are objects and sayHi.name gives sayHi -->
+Q65: What are the .name and .length, property of functions? How we can use function as objects with custom properties?
+Q66: What are known as the named function expressions?
+<!-- Timeout Methods -->
+Q67: What is the setTimeout, setInterval method and explain its syntax? What its third argument will do?
+Q68: What are the usage and syntax of Nested SetTimeout functions? What is the difference between setInterval and setTimeout?
+Q68: What is the diifference between debouncing and throttling in js? 
+Q69: How to create caching for react js web applications and for js functions?
+Q70: What is the "losing this" problem of setTimeout method? What are its solution? What is the difference between them?
+Q71: What is the difference between bind and bindAll method in js?
+Q72: 
