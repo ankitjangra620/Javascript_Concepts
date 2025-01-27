@@ -99,4 +99,8 @@ Q68: What is the diifference between debouncing and throttling in js?
 Q69: How to create caching for react js web applications and for js functions?
 Q70: What is the "losing this" problem of setTimeout method? What are its solution? What is the difference between them?
 Q71: What is the difference between bind and bindAll method in js?
-Q72: 
+Q72: Given an array A, find the length of the longest subarray which has a sum equal to 0.
+
+      A: [3, 0, -1, -2, 3, 0, -2]
+      Result: 5
+      Explanation: Longest Subarray with sum 0: [0, -1, -2, 3, 0]
